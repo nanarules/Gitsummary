@@ -7,3 +7,10 @@ text-align: center;
     color: blue;
     
 }
+.first_class {
+    opacity: 1;
+}
+.first_class:hover{
+    opacity: 0.8;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
